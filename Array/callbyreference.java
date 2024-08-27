@@ -13,18 +13,20 @@ public class callbyreference {
     public static void main(String [] args){
         int arr[] = {1,2,3};
         UpdateValue(arr);
+        for(int i=0 ;i<arr.length;i++){
+            System.out.println(arr[i] + "");
+        }
 
         //non changeble
         int marks=23;
         nonchangeble(marks);
         System.out.println(marks);
+
         String fruit ="mango";
         string(fruit);
+        
         System.out.println(fruit);
 
-        for(int i=0 ;i<arr.length;i++){
-            System.out.println(arr[i] + "");
-        }
 
     }
 }

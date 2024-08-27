@@ -10,7 +10,7 @@ public class factorial {
         }
         return f;
     }
-
+    
     public static void main(String[] args) {
         System.out.println("enter value of n");
         Scanner sc = new Scanner(System.in);
